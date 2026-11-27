@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" fill="none">
+  <defs>
+    <linearGradient id="p6-front" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#E5E7EB"/>
+      <stop offset="100%" stop-color="#B9C0CB"/>
+    </linearGradient>
+    <linearGradient id="p6-inner" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#334155"/>
+      <stop offset="100%" stop-color="#1E293B"/>
+    </linearGradient>
+  </defs>
+  <ellipse cx="320" cy="404" rx="154" ry="19" fill="#0F172A" fill-opacity="0.14"/>
+  <path d="M196 154 L394 114 L452 146 L254 186 Z" fill="#F1F5F9" stroke="#CBD5E1" stroke-width="1.5"/>
+  <path d="M196 154 L254 186 L254 388 L196 356 Z" fill="url(#p6-front)"/>
+  <path d="M254 186 L452 146 L452 348 L254 388 Z" fill="#D4D9E2"/>
+  <path d="M270 206 L436 172 L436 276 L270 310 Z" fill="url(#p6-inner)"/>
+  <path d="M270 310 L436 276 L422 268 L270 298 Z" fill="#475569"/>
+  <rect x="210" y="362" width="12" height="28" rx="2" fill="#475569"/>
+  <rect x="434" y="336" width="12" height="22" rx="2" fill="#475569"/>
+  <line x1="120" y1="406" x2="520" y2="406" stroke="#64748B" stroke-opacity="0.22" stroke-width="1.5"/>
+</svg>

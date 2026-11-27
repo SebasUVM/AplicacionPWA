@@ -1,0 +1,203 @@
+[
+  {
+    "id": "p1",
+    "sku": "K01-ALU",
+    "nombre": "Lámpara Arco K-01",
+    "categoria": "Iluminación",
+    "precio": 290,
+    "precioAnterior": 340,
+    "stock": 14,
+    "destacado": true,
+    "valoracion": 4.9,
+    "imagen": "img/p1.svg",
+    "descripcionCorta": "Luminaria de escritorio en voladizo con difusor cónico y luz cálida regulable.",
+    "descripcionLarga": "Mecanizada a partir de aluminio reciclado con acabado anodizado mate. Su brazo articulado de contrapeso interno permite orientar el haz de luz sin tornillos visibles, incorporando regulación continua de intensidad mediante sensor táctil en la base.",
+    "acabados": [
+      { "nombre": "Aluminio cepillado", "hex": "#C8CCD2" },
+      { "nombre": "Azul cobalto", "hex": "#1D4ED8" },
+      { "nombre": "Grafito mate", "hex": "#2B2F36" }
+    ],
+    "especificaciones": {
+      "material": "Aluminio anodizado 6061 y acero",
+      "dimensiones": "420 × 180 × 460 mm",
+      "peso": "2.4 kg",
+      "temperatura": "2700K – 4000K CRI 95",
+      "garantia": "5 años"
+    }
+  },
+  {
+    "id": "p2",
+    "sku": "S04-AUD",
+    "nombre": "Altavoz Monolito S-04",
+    "categoria": "Audio",
+    "precio": 520,
+    "precioAnterior": null,
+    "stock": 7,
+    "destacado": true,
+    "valoracion": 4.8,
+    "imagen": "img/p2.svg",
+    "descripcionCorta": "Sistema acústico activo de recinto sellado con dial rotatorio mecanizado.",
+    "descripcionLarga": "Diseñado para espacios de trabajo y salas de escucha íntimas. Su chasis monolítico de aluminio extruido elimina resonancias parásitas y aloja un transductor coaxial de rango completo acompañado de amplificación clase D de baja distorsión.",
+    "acabados": [
+      { "nombre": "Plata anodizado", "hex": "#D1D5DB" },
+      { "nombre": "Negro antracita", "hex": "#1F2329" }
+    ],
+    "especificaciones": {
+      "material": "Aluminio CNC y rejilla de acero microperforada",
+      "dimensiones": "240 × 165 × 310 mm",
+      "peso": "4.8 kg",
+      "conectividad": "USB-C DAC, entrada óptica y Wi-Fi lossless",
+      "garantia": "5 años"
+    }
+  },
+  {
+    "id": "p3",
+    "sku": "T02-MOB",
+    "nombre": "Silla Lámina T-02",
+    "categoria": "Mobiliario",
+    "precio": 640,
+    "precioAnterior": 710,
+    "stock": 5,
+    "destacado": true,
+    "valoracion": 4.9,
+    "imagen": "img/p3.svg",
+    "descripcionCorta": "Silla de estudio en voladizo de acero tubular y chapa de fresno moldeada.",
+    "descripcionLarga": "La estructura continua de acero cromado satinado aporta una flexión ergonómica natural sin mecanismos complejos. El respaldo y el asiento en chapa de fresno curvada al vapor acompañan la postura durante largas jornadas de estudio o comedor.",
+    "acabados": [
+      { "nombre": "Fresno natural", "hex": "#D5C3A8" },
+      { "nombre": "Fresno teñido humo", "hex": "#45494F" }
+    ],
+    "especificaciones": {
+      "material": "Acero tubular Ø22 mm y fresno europeo",
+      "dimensiones": "510 × 540 × 790 mm",
+      "peso": "6.2 kg",
+      "alturaAsiento": "455 mm",
+      "garantia": "5 años"
+    }
+  },
+  {
+    "id": "p4",
+    "sku": "M08-OBJ",
+    "nombre": "Reloj Crono M-08",
+    "categoria": "Objetos",
+    "precio": 185,
+    "precioAnterior": null,
+    "stock": 19,
+    "destacado": false,
+    "valoracion": 4.7,
+    "imagen": "img/p4.svg",
+    "descripcionCorta": "Reloj de sobremesa silencioso con esfera serigrafiada y bloque de acero.",
+    "descripcionLarga": "Pieza de escritorio con movimiento de barrido continuo totalmente silencioso. La caja fresada en bloque sólido inclina la esfera 12 grados hacia el usuario para ofrecer lectura inmediata bajo vidrio mineral antirreflejo.",
+    "acabados": [
+      { "nombre": "Acero cepillado", "hex": "#B4B9C2" },
+      { "nombre": "Cobalto técnico", "hex": "#1D4ED8" }
+    ],
+    "especificaciones": {
+      "material": "Acero inoxidable 316L y cristal mineral",
+      "dimensiones": "115 × 72 × 115 mm",
+      "peso": "0.95 kg",
+      "movimiento": "Cuarzo japonés de barrido continuo",
+      "garantia": "3 años"
+    }
+  },
+  {
+    "id": "p5",
+    "sku": "P03-ILU",
+    "nombre": "Colgante Halo P-03",
+    "categoria": "Iluminación",
+    "precio": 410,
+    "precioAnterior": null,
+    "stock": 9,
+    "destacado": false,
+    "valoracion": 4.8,
+    "imagen": "img/p5.svg",
+    "descripcionCorta": "Luminaria suspendida de anillo opalino para mesas de trabajo o comedor.",
+    "descripcionLarga": "Combina un difusor de vidrio soplado ácido con un perfil superior de latón cepillado que dirige un 70% de la luz hacia abajo y un 30% de baño ambiental hacia el techo. Incluye florón plano y cable textil regulable hasta 2.5 m.",
+    "acabados": [
+      { "nombre": "Latón satinado", "hex": "#C7A76C" },
+      { "nombre": "Níquel oscuro", "hex": "#3B4048" }
+    ],
+    "especificaciones": {
+      "material": "Vidrio opalino y latón macizo",
+      "dimensiones": "Ø 480 × 95 mm",
+      "peso": "3.6 kg",
+      "flujo": "1850 lm · 2700K regulable DALI/Triac",
+      "garantia": "5 años"
+    }
+  },
+  {
+    "id": "p6",
+    "sku": "A05-MOB",
+    "nombre": "Mesa Auxiliar Prisma A-05",
+    "categoria": "Mobiliario",
+    "precio": 360,
+    "precioAnterior": 395,
+    "stock": 0,
+    "destacado": false,
+    "valoracion": 4.6,
+    "imagen": "img/p6.svg",
+    "descripcionCorta": "Mesa auxiliar de chapa de acero plegada con estante inferior para revistas.",
+    "descripcionLarga": "Fabricada mediante corte láser y plegado de precisión en chapa de acero de 3 mm con recubrimiento epoxi microtexturizado. Su geometría cerrada crea un plano inferior protegido para libros de formato grande o equipos compactos.",
+    "acabados": [
+      { "nombre": "Gris piedra", "hex": "#D8DADF" },
+      { "nombre": "Azul pizarra", "hex": "#2A3B5C" }
+    ],
+    "especificaciones": {
+      "material": "Acero al carbono 3 mm acabado microtextura",
+      "dimensiones": "400 × 380 × 490 mm",
+      "peso": "9.8 kg",
+      "cargaMaxima": "35 kg distribuidos",
+      "garantia": "5 años"
+    }
+  },
+  {
+    "id": "p7",
+    "sku": "D07-AUD",
+    "nombre": "Tornamesa Eje D-07",
+    "categoria": "Audio",
+    "precio": 890,
+    "precioAnterior": null,
+    "stock": 4,
+    "destacado": false,
+    "valoracion": 5.0,
+    "imagen": "img/p7.svg",
+    "descripcionCorta": "Giradiscos de tracción por correa con plato mecanizado y brazo de carbono.",
+    "descripcionLarga": "Base sándwich de aluminio y compuesto mineral de alta densidad que aísla la cápsula fonocaptora de vibraciones externas. Equipa motor DC servo-controlado de doble velocidad (33/45 rpm) y preamplificador phono conmutable.",
+    "acabados": [
+      { "nombre": "Grafito técnico", "hex": "#242830" },
+      { "nombre": "Aluminio natural", "hex": "#C4C9D0" }
+    ],
+    "especificaciones": {
+      "material": "Plinto mineral-aluminio, brazo fibra de carbono",
+      "dimensiones": "435 × 345 × 125 mm",
+      "peso": "8.4 kg",
+      "capsula": "Imán móvil elíptica calibrada de fábrica",
+      "garantia": "5 años"
+    }
+  },
+  {
+    "id": "p8",
+    "sku": "B06-OBJ",
+    "nombre": "Bandeja Basalto B-06",
+    "categoria": "Objetos",
+    "precio": 135,
+    "precioAnterior": 160,
+    "stock": 22,
+    "destacado": false,
+    "valoracion": 4.8,
+    "imagen": "img/p8.svg",
+    "descripcionCorta": "Organizador arquitectónico tallado en piedra volcánica con canal de latón.",
+    "descripcionLarga": "Cada pieza se fresa en bloque sólido de basalto apomazado manteniendo la veta natural de la piedra. Incluye un inserto removible de latón mecanizado para instrumentos de escritura, tarjetas y accesorios cotidianos.",
+    "acabados": [
+      { "nombre": "Basalto oscuro", "hex": "#2D3035" },
+      { "nombre": "Caliza clara", "hex": "#DEDCD6" }
+    ],
+    "especificaciones": {
+      "material": "Piedra basáltica natural y latón sin lacar",
+      "dimensiones": "260 × 120 × 28 mm",
+      "peso": "1.6 kg",
+      "proteccion": "Base inferior con corcho natural antideslizante",
+      "garantia": "3 años"
+    }
+  }
+]

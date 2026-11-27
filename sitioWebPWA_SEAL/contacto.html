@@ -1,0 +1,243 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contacto — Módulo Estudio</title>
+    <meta name="description" content="Formulario de contacto validado para consultas de producto, pedidos B2B y soporte técnico de Módulo Estudio." />
+    <link rel="manifest" href="manifest.json" />
+    <meta name="theme-color" content="#1D4ED8" />
+    <link rel="apple-touch-icon" href="icons/apple-touch-icon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600&family=JetBrains+Mono:wght@400;500&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <script>
+      (function () {
+        var saved = localStorage.getItem('modulo_theme');
+        var dark = saved === 'dark' || (!saved && window.matchMedia('(prefers-color-scheme: dark)').matches);
+        if (dark) document.documentElement.classList.add('dark');
+      })();
+    </script>
+    <link rel="stylesheet" href="css/variables.css" />
+    <link rel="stylesheet" href="css/base.css" />
+    <link rel="stylesheet" href="css/components.css" />
+    <link rel="stylesheet" href="css/pages.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container site-header__inner">
+        <a href="index.html" class="brand-wordmark">Módulo Estudio</a>
+
+        <nav class="main-nav" aria-label="Navegación principal">
+          <a href="index.html" class="main-nav__link">Inicio</a>
+          <a href="catalogo.html" class="main-nav__link">Catálogo</a>
+          <a href="carrito.html" class="main-nav__link">Carrito · <span class="tabular-nums" data-cart-count>0</span></a>
+          <a href="contacto.html" class="main-nav__link" aria-current="page">Contacto</a>
+        </nav>
+
+        <div class="header-action-zone">
+          <button type="button" class="theme-toggle" data-theme-toggle aria-label="Cambiar tema">
+            <svg data-icon="moon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+              <path d="M21 12.8A9 9 0 1 1 11.2 3 7 7 0 0 0 21 12.8z" />
+            </svg>
+            <svg data-icon="sun" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" hidden aria-hidden="true">
+              <circle cx="12" cy="12" r="4" />
+              <path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4" />
+            </svg>
+            <span class="theme-toggle__label">Tema oscuro</span>
+          </button>
+
+          <button type="button" class="menu-toggle" data-menu-toggle aria-expanded="false" aria-label="Abrir menú">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+              <path d="M4 7h16M4 12h16M4 17h16" />
+            </svg>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <div class="mobile-drawer" data-mobile-drawer>
+      <nav class="mobile-drawer__list" aria-label="Navegación móvil">
+        <a href="index.html" class="mobile-drawer__link">Inicio</a>
+        <a href="catalogo.html" class="mobile-drawer__link">Catálogo</a>
+        <a href="carrito.html" class="mobile-drawer__link">Carrito · <span class="tabular-nums" data-cart-count>0</span></a>
+        <a href="contacto.html" class="mobile-drawer__link" aria-current="page">Contacto</a>
+      </nav>
+    </div>
+
+    <main>
+      <section class="page-header">
+        <div class="container">
+          <h1 class="page-header__title">Contacto y encargos</h1>
+          <p class="page-header__meta">
+            Atendemos consultas sobre acabados, proyectos de arquitectura y soporte técnico en menos de 24 h hábiles.
+          </p>
+        </div>
+      </section>
+
+      <section class="container">
+        <div class="contact-layout">
+          <aside class="contact-info-card" aria-label="Información del estudio">
+            <div>
+              <h2 style="font-size: 1.375rem; margin-bottom: 8px;">Taller y sala de muestras</h2>
+              <p class="field__hint" style="font-size: 0.9375rem;">
+                Visitas con cita previa de lunes a viernes para revisar muestras de aluminio anodizado,
+                fresno y piedra natural.
+              </p>
+            </div>
+
+            <dl class="specs-table">
+              <div class="specs-table__row">
+                <dt class="specs-table__key">Correo directo</dt>
+                <dd class="specs-table__val">hola@moduloestudio.es</dd>
+              </div>
+              <div class="specs-table__row">
+                <dt class="specs-table__key">Horario taller</dt>
+                <dd class="specs-table__val">Lun – Vie · 09:30 – 18:30</dd>
+              </div>
+              <div class="specs-table__row">
+                <dt class="specs-table__key">Dirección</dt>
+                <dd class="specs-table__val">Calle del Diseño 42, Nave 3</dd>
+              </div>
+              <div class="specs-table__row">
+                <dt class="specs-table__key">Tiempo de respuesta</dt>
+                <dd class="specs-table__val">Máximo 24 horas hábiles</dd>
+              </div>
+            </dl>
+          </aside>
+
+          <div class="contact-form-card">
+            <form class="contact-form-grid" data-contact-form novalidate>
+              <div class="field">
+                <label class="field__label" for="contact-nombre">Nombre completo *</label>
+                <input
+                  id="contact-nombre"
+                  name="nombre"
+                  type="text"
+                  class="field__input"
+                  placeholder="Ej. Andrés Morales"
+                  aria-describedby="error-nombre"
+                  required
+                />
+                <span id="error-nombre" class="field__error" data-error-for="nombre" hidden></span>
+              </div>
+
+              <div class="field">
+                <label class="field__label" for="contact-correo">Correo electrónico *</label>
+                <input
+                  id="contact-correo"
+                  name="correo"
+                  type="email"
+                  class="field__input"
+                  placeholder="nombre@estudio.com"
+                  aria-describedby="error-correo"
+                  required
+                />
+                <span id="error-correo" class="field__error" data-error-for="correo" hidden></span>
+              </div>
+
+              <div class="field">
+                <label class="field__label" for="contact-telefono">Teléfono (opcional)</label>
+                <input
+                  id="contact-telefono"
+                  name="telefono"
+                  type="tel"
+                  class="field__input"
+                  placeholder="+34 600 123 456"
+                  aria-describedby="error-telefono"
+                />
+                <span id="error-telefono" class="field__error" data-error-for="telefono" hidden></span>
+              </div>
+
+              <div class="field">
+                <label class="field__label" for="contact-asunto">Motivo de consulta *</label>
+                <select
+                  id="contact-asunto"
+                  name="asunto"
+                  class="field__select"
+                  aria-describedby="error-asunto"
+                  required
+                >
+                  <option value="">Selecciona una opción</option>
+                  <option value="producto">Consulta sobre producto</option>
+                  <option value="proyecto">Pedido personalizado o proyecto B2B</option>
+                  <option value="envio">Estado de envío</option>
+                  <option value="garantia">Soporte y garantía</option>
+                </select>
+                <span id="error-asunto" class="field__error" data-error-for="asunto" hidden></span>
+              </div>
+
+              <div class="field contact-form-full">
+                <div style="display: flex; justify-content: space-between; align-items: baseline;">
+                  <label class="field__label" for="contact-mensaje">Mensaje *</label>
+                  <span class="field__hint tabular-nums" data-char-count>0 / 600</span>
+                </div>
+                <textarea
+                  id="contact-mensaje"
+                  name="mensaje"
+                  class="field__textarea"
+                  placeholder="Indica las referencias de interés, cantidades aproximadas o tu consulta técnica (mínimo 20 caracteres)."
+                  maxlength="600"
+                  aria-describedby="error-mensaje"
+                  required
+                ></textarea>
+                <span id="error-mensaje" class="field__error" data-error-for="mensaje" hidden></span>
+              </div>
+
+              <div class="field contact-form-full">
+                <label class="checkbox-row">
+                  <input type="checkbox" name="privacidad" aria-describedby="error-privacidad" required />
+                  <span>Acepto el tratamiento de mis datos exclusivamente para responder a esta consulta.</span>
+                </label>
+                <span id="error-privacidad" class="field__error" data-error-for="privacidad" hidden></span>
+              </div>
+
+              <div class="contact-form-full">
+                <button type="submit" class="btn btn--primary">Enviar consulta</button>
+              </div>
+            </form>
+
+            <div data-contact-confirmation hidden></div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <div class="site-footer__grid">
+          <div>
+            <h3 class="site-footer__heading">Módulo Estudio</h3>
+            <p class="site-footer__text">
+              Catálogo independiente de luminarias, mobiliario técnico, audio de precisión y objetos de escritorio.
+            </p>
+          </div>
+          <div>
+            <h3 class="site-footer__heading">Navegación</h3>
+            <ul class="site-footer__links">
+              <li><a href="index.html">Inicio</a></li>
+              <li><a href="catalogo.html">Catálogo y filtros</a></li>
+              <li><a href="carrito.html">Carrito y favoritos</a></li>
+              <li><a href="contacto.html">Contacto validado</a></li>
+            </ul>
+          </div>
+          <div>
+            <h3 class="site-footer__heading">Proyecto y entrega</h3>
+            <ul class="site-footer__links">
+              <li><a href="catalogo.html?favoritos=1">Ver favoritos guardados (<span class="tabular-nums" data-fav-count>0</span>)</a></li>
+              <li><a href="proyecto-catalogo.zip" download="proyecto-modulo-estudio.zip">Descargar proyecto (.zip)</a></li>
+              <li><a href="404.html">Vista de error 404</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="site-footer__bottom">
+          <span>© 2026 Módulo Estudio · Arquitectura de objetos</span>
+          <span>hola@moduloestudio.es</span>
+        </div>
+      </div>
+    </footer>
+
+    <script type="module" src="js/main.js"></script>
+    <script type="module" src="js/contacto.js"></script>
+  </body>
+</html>
